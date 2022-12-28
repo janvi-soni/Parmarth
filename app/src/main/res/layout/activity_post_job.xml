@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
+    tools:context=".PostJob">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+
+        android:id="@+id/pjtv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Post Your Job Openings" />
+    <TextView
+        android:layout_below="@+id/pjtv1"
+        android:id="@+id/pjtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:text="Job Profile" />
+
+        <TextView
+            android:id="@+id/he1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjtv2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="Company Name:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+    <EditText
+        android:layout_marginRight="10dp"
+
+        android:background="@drawable/ed"
+        android:id="@+id/pjed1"
+        android:layout_below="@+id/he1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company Name"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+        <TextView
+            android:id="@+id/he2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed1"
+            android:text="Job Title:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed3"
+        android:layout_below="@+id/he2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Title"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+        <TextView
+            android:id="@+id/he3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed3"
+            android:text="Job Type:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed4"
+        android:layout_below="@+id/he3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Type"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+        <TextView
+            android:id="@+id/he4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed4"
+            android:text="Job Location:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed5"
+        android:layout_below="@+id/he4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Location"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/pjtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pjed5"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Job Details"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/he5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjtv3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="About the Comapany:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed01"
+        android:layout_below="@+id/he5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About the Company"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/he6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed01"
+            android:text="Responsibilities:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed02"
+        android:layout_below="@+id/he6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Responsibilies"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/he7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed02"
+            android:text="Required Skills and Experiences:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed03"
+        android:layout_below="@+id/he7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Required Skills and Experinces"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/he8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pjed03"
+            android:text="Perks and Benefits:"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ed"
+        android:id="@+id/pjed04"
+        android:layout_below="@+id/he8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Perks and Benefits"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <Button
+        android:background="@drawable/ed"
+        android:id="@+id/gobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pjed04"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+
+        android:text="post"/>
+    </RelativeLayout>
+
+
+</ScrollView>

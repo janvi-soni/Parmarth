@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "931741336601",
+    "project_id": "parmarth-2de80",
+    "storage_bucket": "parmarth-2de80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931741336601:android:4b8152b9f71b6e80cd9688",
+        "android_client_info": {
+          "package_name": "com.example.parmarth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931741336601-n1e456p7lm6bv8kq592rsptgsgh0l0vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPszV4PWQyWevsQNkLhT592MK5Is8infM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931741336601-n1e456p7lm6bv8kq592rsptgsgh0l0vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

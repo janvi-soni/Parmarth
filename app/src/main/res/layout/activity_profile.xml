@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/pt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgv"
+        android:src="@drawable/images"
+        />
+    <TextView
+        android:id="@+id/he1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_below="@id/he1"
+        android:id="@+id/ped1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <TextView
+        android:id="@+id/he2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ped1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="About:"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+
+
+    <EditText
+        android:id="@+id/ped3"
+        android:layout_below="@+id/he2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/he3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ped3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Job Type:"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/ped4"
+        android:layout_below="@+id/he3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Type"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/he4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ped4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Experience:"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/ped5"
+        android:layout_below="@+id/he4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/he5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ped5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Description:"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/ped6"
+        android:layout_below="@+id/he5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ped6"
+        android:text="Update"
+        />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

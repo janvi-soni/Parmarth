@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.parmarth">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Parmarth"
+        tools:targetApi="31">
+        <activity
+            android:name=".Finance"
+            android:exported="false" />
+        <activity
+            android:name=".Business"
+            android:exported="false" />
+        <activity
+            android:name=".project"
+            android:exported="false" />
+        <activity
+            android:name=".Government"
+            android:exported="false" />
+        <activity
+            android:name=".Design"
+            android:exported="false" />
+        <activity
+            android:name=".Disabled"
+            android:exported="false" />
+        <activity
+            android:name=".DumbandDeaf"
+            android:exported="false" />
+        <activity
+            android:name=".Autism"
+            android:exported="false" />
+        <activity
+            android:name=".Wheelchair"
+            android:exported="false" />
+        <activity
+            android:name=".HardOfHearing"
+            android:exported="false" />
+        <activity
+            android:name=".Marketing"
+            android:exported="false" />
+        <activity
+            android:name=".Visuallyimpaired"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostJob"
+            android:exported="false" />
+        <activity
+            android:name=".Registeration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

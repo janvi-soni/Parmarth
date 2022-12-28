@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Discover Your Dream Job"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ed"
+                android:drawableStart="@drawable/briefcase"
+                android:drawableEnd="@drawable/search"
+                android:hint=" Product designer"
+                android:inputType="text"
+                android:padding="20dp" />
+            <TextView
+                android:layout_below="@+id/ed1"
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text="Categories" />
+
+            <HorizontalScrollView
+                android:id="@+id/hs1"
+                android:layout_below="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivvi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vi"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Visually Impaired"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  253 Jobs Available"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivwb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/wb"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="WheelChair Bound"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  196 Jobs Available"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivpwa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/pwa"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Person with Autism"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  250 Jobs Available"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivdad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/dad"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dumb and Deaf"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="   300 Jobs Available"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Disabled Person"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  186 Jobs Available"/>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivhoh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hoh"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hard Of Hearing"
+                            android:textSize="20dp"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="  290 Jobs Available"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_below="@+id/hs1"
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text="Various Job Fields" />
+            <HorizontalScrollView
+                android:id="@+id/hs2"
+                android:layout_below="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivm"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Marketing and\nCommunication"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf1"
+                            />
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Design and\nDevelopment"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf2"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" Government \nJob"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf3"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Project\nManagment"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf4"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Business and\nConsulting"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/ed"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="10dp"
+                        >
+                        <ImageView
+                            android:id="@+id/ivf"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/jf5"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Finance\nManagment"
+                            android:gravity="center"
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <TextView
+                android:layout_below="@+id/hs2"
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text="Various Job Fields" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_companydetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

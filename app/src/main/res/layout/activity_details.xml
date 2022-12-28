@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ed"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Google"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="19dp"
+                        />
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:text="Google Product Designer4"
+                        />
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/layoutimg1"
+                            android:text="Visually Impaired"/>
+                        <TextView
+                            android:id="@+id/t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:drawableStart="@drawable/layoutimg2"
+                            android:text="Delhi"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="320dp"
+                        android:background="#D9DAD8"
+                        android:layout_height="1dp"/>
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/hehe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About the Company"
+                    android:layout_below="@+id/ll"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textSize="18dp"
+                    />
+
+
+
+
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_below="@+id/hehe1"
+                    android:id="@+id/t5"
+                    />
+                <TextView
+                    android:id="@+id/hehe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Responsibilities"
+                    android:layout_below="@+id/t5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_below="@+id/hehe2"
+                    android:id="@+id/t6"
+                    />
+                <TextView
+                    android:id="@+id/hehe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Required Skills and Benefits"
+                    android:layout_below="@+id/t6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textSize="18dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:layout_below="@+id/hehe3"
+                    android:id="@+id/t7"
+                    />
+                <TextView
+                    android:id="@+id/hehe4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perks and Benefits"
+                    android:layout_below="@+id/t7"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:textSize="15dp"
+                    android:id="@+id/t8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hehe4"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp" />
+                <View
+                    android:id="@+id/v1"
+                    android:layout_below="@id/t8"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="320dp"
+                    android:background="#D9DAD8"
+                    android:layout_height="1dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/v1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ed"
+                    android:padding="5dp"
+                    android:textSize="16dp"
+                    android:text="    Apply    "
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#4540DB" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>
