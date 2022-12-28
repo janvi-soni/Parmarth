@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Autism">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t"
+        android:layout_marginLeft="10dp"
+        android:text="ho"/>
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/t"
         android:id="@+id/ra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
